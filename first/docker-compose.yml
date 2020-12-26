@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  my-go:
+    container_name: my-go
+    build: .
+    ports:
+      - 8080:8081
